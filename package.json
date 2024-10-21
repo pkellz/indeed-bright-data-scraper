@@ -2,11 +2,11 @@
   "name": "bright-data",
   "version": "1.0.0",
   "description": "",
-  "main": "index.ts",
+  "main": "app.ts",
   "scripts": {
     "build": "tsc",
-    "start": "npm run build && node ./dist/index.js",
-    "dev": "concurrently -k \"tsc -w\" \"nodemon ./dist/index.js\"",
+    "start": "npm run build && node ./dist/app.js",
+    "dev": "concurrently -k \"tsc -w\" \"nodemon ./dist/app.js\"",
     "reinstall": "rimraf node_modules && npm install"
   },
   "keywords": [],
